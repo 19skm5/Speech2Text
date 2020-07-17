@@ -10,8 +10,8 @@
 	function sentimentAnalysis(){
 		const { TextAnalyticsClient, TextAnalyticsApiKeyCredential } = require("@azure/ai-text-analytics");
 
-		const key = '7b6ca871b94e48f9a5717c250f8e2e81';
-		const endpoint = 'https://traintxtana.cognitiveservices.azure.com/';
+		const key = '8fe4ff90e44d4e65a8f2836000aff137';
+		const endpoint = 'https://s2tanalytics.cognitiveservices.azure.com/';
 
 		const textAnalyticsClient = new TextAnalyticsClient(endpoint,  new TextAnalyticsApiKeyCredential(key));
 		alert('test the sentiment');
@@ -213,7 +213,7 @@ function language() {
 
 	var myHeader = new Headers({
 		"Content-Type": "application/json",
-		"Ocp-Apim-Subscription-Key": "7b6ca871b94e48f9a5717c250f8e2e81"
+		"Ocp-Apim-Subscription-Key": "9780a035f7ab487aafda62e64acdd919"
 	});
 
 	var initObject = {
@@ -301,7 +301,7 @@ function sentiment() {
 
 	var myHeader = new Headers({
 		"Content-Type": "application/json",
-		"Ocp-Apim-Subscription-Key": "7b6ca871b94e48f9a5717c250f8e2e81" 
+		"Ocp-Apim-Subscription-Key": "9780a035f7ab487aafda62e64acdd919" 
 		
 	});
 //document.getElementById("txtsubscriptionKey").value
